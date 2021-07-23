@@ -28,6 +28,168 @@
 	&__img-box
 		align-self: flex-end
 		margin: -35px 5px 0 0
+.steps
+	margin: 22px auto 0 auto
+	padding: $contentPadding
+	max-width: 661px
+	&__block
+		position: relative
+		display: flex
+		justify-content: space-evenly
+	&__block:nth-child(1)::before
+		content: url(../images/arrow1.png)
+		position: absolute
+		top: -19%
+		left: 40%
+	&__block:nth-child(1)::after
+		content: url(../images/arrow2.png)
+		position: absolute
+		bottom: -13%
+		left: 27%
+	&__block:nth-child(2)::after
+		content: url(../images/arrow3.png)
+		position: absolute
+		top: 64%
+		left: 27%
+	&__block:nth-child(3)::after
+		content: url(../images/arrow4.png)
+		position: absolute
+		top: 71%
+		left: 20%
+	&__block:nth-child(2),
+	&__block:nth-child(4)
+		flex-direction: row-reverse
+	&__block:nth-child(2)
+		margin-top: 32px
+	&__block:nth-child(3)
+		margin-top: 66px
+	&__block:nth-child(4)
+		margin-top: 30px
+	&__title
+		font-family: Orelega One
+		font-style: normal
+		font-weight: normal
+		font-size: 22.2222px
+		line-height: 24px
+		text-align: center
+		color: #FFFFFF
+		margin-bottom: 15px
+	&__text
+		font-family: Manrope
+		font-style: normal
+		font-weight: normal
+		font-size: 13.8889px
+		line-height: 19px
+		text-align: center
+		color: #FFFFFF
+		max-width: 194px
+	.item-pic1
+		margin: 47px 0 0 8px
+	.item-pic2
+		margin-top: -7px
+	.item-pic4
+		margin-top: 33px
+	&__link
+		color: #FFFFFF
+		text-decoration: underline #7453c2
 
+.test
+	margin-top: 75px
+	padding: 0 20px
+	display: flex
+	flex-direction: column
+	align-items: center
+	width: 100%
+	&__heading
+		font-family: Orelega One
+		font-style: normal
+		font-weight: normal
+		font-size: 22.2222px
+		line-height: 24px
+		text-align: center
+		color: #FFFFFF
+		margin-bottom: 53px
+	&__title-box
+		background: url("../images/lets_begin_bg.png") center no-repeat
+		background-size: cover
+		max-width: 310px
+		width: 100%
+		height: 183px
+		display: flex
+		justify-content: center
+		align-items: center
+	&__title
+		font-family: Orelega One
+		font-style: normal
+		font-weight: normal
+		font-size: 32.6389px
+		line-height: 36px
+		text-align: center
+		color: #8F37FF
+		padding-bottom: 35px
+	&__img-box
+		margin: -73px 0 0 -48px
+	&__link-btn
+		margin-top: 40px
 
-
+.faq
+	margin: 71px auto 0 auto
+	padding: 0 21px
+	&__title
+		font-family: Orelega One
+		font-style: normal
+		font-weight: normal
+		font-size: 48.6111px
+		line-height: 53px
+		text-align: center
+		color: #FFFFFF
+		text-transform: uppercase
+	.ac-custom
+		border-top: none
+		border-left: none
+		border-right: none
+		background-color: inherit
+		box-sizing: border-box
+		border-bottom: 1px solid #FFFFFF
+		.ac-trigger-custom
+			display: flex
+			justify-content: space-between
+			.ac-trigger-box
+				max-width: 256px
+				font-family: Orelega One
+				font-style: normal
+				font-weight: normal
+				font-size: 20.1389px
+				line-height: 22px
+				color: #FFFFFF
+				padding: 33px 0
+		.ac-trigger-custom::after,
+		.ac-trigger-custom::before
+			content: ""
+			position: absolute
+			right: 0
+			top: 50%
+			width: 4px
+			height: 22px
+			background: #F8A221
+			transition: all 0.3s ease 0s
+		.ac-trigger-custom::before
+			transform: rotate(90deg)
+			left: calc(100% - 4px)
+			top: calc(50% - 11px)
+		.ac-panel
+			.ac-text-custom
+				font-family: Manrope
+				font-style: normal
+				font-weight: normal
+				font-size: 13.8889px
+				line-height: 19px
+				color: #FFFFFF
+	.ac-custom:last-of-type
+		border: none
+	.ac-custom.is-active
+		.ac-trigger-custom::after	
+			transform: rotate(-45deg)
+			top: calc(50% - 11px) 
+		.ac-trigger-custom::before
+			transform: rotate(45deg)	
