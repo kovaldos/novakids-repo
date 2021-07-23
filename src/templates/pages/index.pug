@@ -1,0 +1,22 @@
+extends ../template
+
+block variables
+    - var title = 'Главная'
+    - var contactForm = true
+
+block content
+    main
+        .wrapper
+            .content 
+                section.how-to-get
+                    .how-to-get__text-box
+                        p.how-to-get__text Как получить<br>скидку на&nbsp; 
+                            span.how-to-get__span
+                                a.how-to-get__link(href="#") anywayanyday<br>
+                            span.how-to-get__span для покупки авиабилетов и бронирования гостиниц
+                    .how-to-get__img-box
+                        picture.how-to-get__pic     
+                            source(srcset="./assets/images/broccoli.webp" type="image/webp") 
+                            img(src="./assets/images/broccoli.png" alt="pink-broccoli")
+
+

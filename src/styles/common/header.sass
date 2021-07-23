@@ -1,0 +1,75 @@
+body
+	overflow-x: hidden
+	position: relative
+	background: #8F37FF
+	font-family: $fontFamily, $fontPrimary
+	margin: 0 auto
+	min-width: 320px
+
+body._lock
+	overflow: hidden
+
+a
+	text-decoration: none
+
+.wrapper
+	max-width: 1920px
+	margin: 0 auto
+    
+.header
+    min-height: 668px
+    &__container
+        width: 100%
+        display: flex
+        justify-content: center
+    &__logo-box
+        position: relative
+        width: 100%
+        max-width: 301px
+        height: 260px
+        margin: 76px auto 0 auto
+    .logo__novakid
+        display: block
+        position: absolute
+        top: 34px
+        left: 27px
+        max-width: 114px
+        height: 100%
+    .logo__miles
+        display: block
+        position: absolute
+        top: 0
+        max-width: 301px
+        height: 100%
+    &__text-block
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding: 0 21px
+    &__text
+        font-size: 15.2778px
+        line-height: 21px
+        text-align: center
+        color: #FFFFFF
+    &__link-btn
+        margin-top: 15px
+        font-family: Orelega One
+        font-style: normal
+        font-weight: normal
+        font-size: 22.2222px
+        line-height: 24px
+        text-align: center
+        color: #FFFFFF
+        width: 273px
+        height: 91px
+        display: flex
+        justify-content: center
+        align-items: center
+        background: url("../images/pass_test_btn_bg.png") center no-repeat
+    &__arrow
+        margin-top: 21px
+        background: url("../images/chevron_down.png") center no-repeat
+        background-size: cover
+        width: 32px
+        height: 16px
