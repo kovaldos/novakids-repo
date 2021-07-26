@@ -1,0 +1,39 @@
+extends ../template_copy
+
+block variables
+    - var title = 'Баллы'
+    - var contactForm = true
+
+block content
+    main
+        .wrapper
+            section.award
+                a.award__logo(href="index.html")    
+                    picture
+                        source(srcset="./assets/images/Logo_speak_for_miles.webp" type="image/webp") 
+                        img(src="./assets/images/Logo_speak_for_miles.png" alt="logo-speak-for-miles")
+                .award__content
+                    p.award__title 150 
+                    p.award__sub-title баллов
+                    p.award__text Выполните авторизацию<br>через соц. сети, чтобы получить скидку от anywayanyday
+                .award__social
+                    a.award__social-link(href="https://www.facebook.com/" target="_blanc")    
+                        i.fab.fa-facebook-f
+                    a.award__social-link(href="https://www.vk.com/" target="_blanc")    
+                        i.fab.fa-vk
+                    a.award__social-link(href="https://www.odnoklassniki.ru/" target="_blanc")    
+                        i.fab.fa-odnoklassniki
+                    a.award__social-link(href="https://www.instagram.com/" target="_blanc")    
+                        i.fab.fa-instagram                                    
+
+
+
+                        
+
+
+
+
+
+
+
+
