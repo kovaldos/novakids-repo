@@ -1,0 +1,122 @@
+.feedback {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 37px;
+  width: 100%;
+}
+
+.feedback__form {
+  margin-top: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feedback__text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.feedback__text_email {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 13px 0 0 7px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.feedback__input {
+  margin-top: 2px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  background: inherit;
+  width: 100%;
+  min-height: 53px;
+  padding: 0 9px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.feedback ::-webkit-input-placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback :-ms-input-placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback ::-ms-input-placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback ::placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback__btn {
+  margin: 71px 0 42px 0;
+  background: url("../images/pass_test_btn_bg.png") center no-repeat;
+  background-size: contain;
+  max-width: 294px;
+  width: 100%;
+  min-height: 98px;
+  font-family: Orelega One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.9538px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=feedback.css.map */

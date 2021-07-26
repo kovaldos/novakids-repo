@@ -1,0 +1,33 @@
+/* orelega-one-regular - latin_cyrillic */
+@font-face {
+  font-family: "Orelega One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/orelega-one-v1-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/orelega-one-v1-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/orelega-one-v1-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/orelega-one-v1-latin_cyrillic-regular.woff") format("woff"), url("../fonts/orelega-one-v1-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/orelega-one-v1-latin_cyrillic-regular.svg#OrelegaOne") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-regular - latin_cyrillic */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v4-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/manrope-v4-latin_cyrillic-regular.woff") format("woff"), url("../fonts/manrope-v4-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/manrope-v4-latin_cyrillic-regular.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-600 - latin_cyrillic */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v4-latin_cyrillic-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin_cyrillic-600.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin_cyrillic-600.woff2") format("woff2"), url("../fonts/manrope-v4-latin_cyrillic-600.woff") format("woff"), url("../fonts/manrope-v4-latin_cyrillic-600.ttf") format("truetype"), url("../fonts/manrope-v4-latin_cyrillic-600.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+/*# sourceMappingURL=fonts.css.map */

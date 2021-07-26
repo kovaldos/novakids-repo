@@ -1,0 +1,107 @@
+.award {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px;
+}
+
+.award__logo {
+  display: block;
+  max-width: 140px;
+  width: 100%;
+}
+
+.award__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.award__title {
+  max-width: 495px;
+  width: 100%;
+  font-family: Orelega One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 163.908px;
+  line-height: 179px;
+  text-align: center;
+  letter-spacing: -9px;
+  -webkit-font-feature-settings: 'kern' off;
+          font-feature-settings: 'kern' off;
+  color: #FFFFFF;
+}
+
+.award__sub-title {
+  font-family: Orelega One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60.2857px;
+  margin-top: -25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.award__text {
+  margin-top: 25px;
+  max-width: 308px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.award__social {
+  margin: 37px 0 48px 0;
+  max-width: 290px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.award__social-link {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border-radius: 100%;
+}
+
+.award__social-link .fab {
+  font-size: 25px;
+  color: #8F37FF;
+}
+/*# sourceMappingURL=award.css.map */
