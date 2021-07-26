@@ -154,6 +154,7 @@
 		.ac-trigger-custom
 			display: flex
 			justify-content: space-between
+			padding: 0
 			.ac-trigger-box
 				max-width: 256px
 				font-family: Orelega One
@@ -167,7 +168,7 @@
 		.ac-trigger-custom::before
 			content: ""
 			position: absolute
-			right: 0
+			left: calc(100% - 11px)
 			top: 50%
 			width: 4px
 			height: 22px
@@ -175,7 +176,6 @@
 			transition: all 0.3s ease 0s
 		.ac-trigger-custom::before
 			transform: rotate(90deg)
-			left: calc(100% - 4px)
 			top: calc(50% - 11px)
 		.ac-panel
 			.ac-text-custom
@@ -185,6 +185,7 @@
 				font-size: 13.8889px
 				line-height: 19px
 				color: #FFFFFF
+				padding: 23px 0
 	.ac-custom:last-of-type
 		border: none
 	.ac-custom.is-active
