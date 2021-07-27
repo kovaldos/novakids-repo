@@ -195,9 +195,9 @@
 		.ac-trigger-custom::before
 			transform: rotate(45deg)
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 1199px)
 	.how-to-get
-		margin-top: 20px
+		margin-top: 45px
 		&__text-box
 			max-width: 513px
 			min-height: 245px
@@ -211,4 +211,129 @@
 			margin-top: -20px
 		&__img-box
 			align-self: initial
-			transform: rotate(180deg, 0)	
+			transform: matrix(-1, 0, 0, 1, 0, 0)
+			max-width: 277px
+			width: 100%
+			margin: -5% 17% 0 0
+
+	.steps
+		width: 100%
+		display: grid
+		grid-template-columns: 50% 50%
+		max-width: inherit
+		padding: 0 78px
+		margin: -23% auto 0 auto
+		&__block
+			flex-direction: column-reverse
+			justify-content: center
+			align-items: center
+		&__block:nth-child(2),
+		&__block:nth-child(4)
+			flex-direction: column-reverse
+			justify-content: center
+			align-items: center
+		&__block:nth-child(2),
+		&__block:nth-child(3)
+			grid-row-start: 2
+		&__block:nth-child(1)::before
+			content: url("../images/arrow1_desktop.png")
+			top: -32%
+			left: 18%
+		&__block:nth-child(1)::after
+			content: url("../images/arrow2_desktop.png")
+			bottom: 8%
+			left: 38%
+		&__block:nth-child(2)::after
+			content: url("../images/arrow3_desktop.png")
+			top: -5%
+			left: 79%
+		&__block:nth-child(3)::after
+			content: url("../images/arrow4_desktop.png")
+			top: -122%
+			left: 19%
+		&__block:nth-child(1)
+			align-items: flex-start
+		&__block:nth-child(2)
+			align-items: flex-end
+		&__block:nth-child(3)
+			align-items: flex-start
+			margin-top: 0
+		&__block:nth-child(4)
+			align-items: flex-end
+		.item-pic1, .item-pic2, .item-pic3, .item-pic4
+			max-width: 119px
+			width: 100%
+		&__title
+			font-size: 28px
+			line-height: 31px
+		&__text
+			font-size: 18px
+			line-height: 25px
+			max-width: 304px
+		.item-text1
+			margin: 20px 0 0 -10px
+		.item-pic1
+			margin: 65px 0 0 81px
+		.item-text2
+			margin: 15px 15px 0 0
+		.item-pic2
+			margin: -65px 110px 0 0
+		.item-text3
+			margin: 20px 0 0 13px
+		.item-pic3
+			margin: -145px 0 0 100px
+		.item-text4
+			margin: 20px -25px 0px 0px
+		.item-pic4
+			margin: -55px 65px 0 0px
+
+	.test
+		display: grid
+		grid-template-columns: 50% 50%
+		margin-top: 137px
+		&__img-box
+			grid-column-start: 2
+			transform: matrix(-1, 0, 0, 1, 0, 0)
+			max-width: 392px
+			margin: -73px 0 0 90px
+		&__title-box
+			background: url("../images/lets_begin_bg_desktop.png") center no-repeat
+			max-width: 409px
+			height: 241px
+			margin: 0 0 0 45px
+		&__heading
+			font-size: 20px
+			line-height: 27px
+			font-family: "Manrope"
+			max-width: 437px
+			margin: 0 0 -85px 105px
+		&__link-btn
+			grid-row-start: 2
+			margin: -53px 0 0 109px
+
+	.faq
+		margin-top: 124px
+		&__title
+			font-size: 50px
+			line-height: 55px
+		&__accordion-block
+			max-width: 962px
+			margin: 0 auto
+		.ac-custom
+			.ac-trigger-custom
+				.ac-trigger-box
+					font-size: 32px
+					line-height: 35px
+					max-width: stretch
+					padding: 41px 0
+			.ac-trigger-custom::after,
+			.ac-trigger-custom::before
+				left: calc(100% - 41px)
+				top: 50%
+				width: 7px
+				height: 32px
+			.ac-trigger-custom::before
+				top: calc(50% - 16px)
+		.ac-custom.is-active
+			.ac-trigger-custom::after
+				top: calc(50% - 16px)

@@ -27,9 +27,40 @@
         width: 30%
         background: #FFFFFF
         height: 1px
-        margin: 28px 0
+        margin: 28px auto
     &__about.anywayanyday
-        margin: 0        
+        margin: 0
     .anywayanyday__logo-link
         display: block
         max-width: 182px
+
+@media screen and (min-width: 1199px)
+    .footer
+        margin: 85px auto 0 auto
+        &__img-box
+            max-width: 395px
+            width: 100%
+        &__line
+            display: none
+        &__about-box
+            margin-top: 87px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            max-width: 955px
+            width: 100%
+            margin-bottom: 107px
+        &__about.novakid
+            margin-top: 0
+            max-width: 427px
+            width: 100%
+        &__about.anywayanyday
+            max-width: 435px
+            width: 100%
+        &__logo-link
+            max-width: 197px
+        .anywayanyday__logo-link
+            max-width: 254px
+        &__about-text
+            font-size: 16px
+            line-height: 22px
