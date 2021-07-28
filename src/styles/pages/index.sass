@@ -4,6 +4,7 @@
 	justify-content: center
 	align-items: center
 	padding: 0 17px
+	margin-top: 28px
 	&__text-box
 		background: url("../images/how_to_get_bg.png") center no-repeat
 		background-size: contain
@@ -39,23 +40,23 @@
 	&__block:nth-child(1)::before
 		content: url(../images/arrow1.png)
 		position: absolute
-		top: -19%
+		top: -20%
 		left: 40%
 	&__block:nth-child(1)::after
 		content: url(../images/arrow2.png)
 		position: absolute
 		bottom: -13%
-		left: 27%
+		left: 31%
 	&__block:nth-child(2)::after
 		content: url(../images/arrow3.png)
 		position: absolute
-		top: 64%
+		top: 67%
 		left: 27%
 	&__block:nth-child(3)::after
 		content: url(../images/arrow4.png)
 		position: absolute
 		top: 71%
-		left: 20%
+		left: 22%
 	&__block:nth-child(2),
 	&__block:nth-child(4)
 		flex-direction: row-reverse
@@ -91,7 +92,7 @@
 		margin-top: 33px
 	&__link
 		color: #FFFFFF
-		text-decoration: underline #7453c2
+		text-decoration: underline
 
 .test
 	margin-top: 75px
@@ -144,6 +145,9 @@
 		text-align: center
 		color: #FFFFFF
 		text-transform: uppercase
+		margin-bottom: 18px
+	.ac
+		margin-top: 0
 	.ac-custom
 		border-top: none
 		border-left: none
@@ -185,7 +189,7 @@
 				font-size: 13.8889px
 				line-height: 19px
 				color: #FFFFFF
-				padding: 23px 0
+				padding: 0 0 5px 0
 	.ac-custom:last-of-type
 		border: none
 	.ac-custom.is-active
@@ -194,6 +198,26 @@
 			top: calc(50% - 11px)
 		.ac-trigger-custom::before
 			transform: rotate(45deg)
+
+@media screen and (min-width: 300px) and (max-width: 374px)
+	.how-to-get
+		&__text-box
+			padding: 0 25px 20px 25px
+		&__text
+			font-size: 20px
+			line-height: 22px
+	.steps
+		&__block:nth-child(1)::before
+			top: -21%
+	.steps
+		&__block:nth-child(1)::after
+			bottom: -17%
+			left: 27%
+		&__block:nth-child(2)::after
+			top: 62%
+			left: 22%
+		&__block:nth-child(3)::after
+			left: 16%
 
 @media screen and (min-width: 1199px)
 	.how-to-get
@@ -285,7 +309,7 @@
 		.item-text4
 			margin: 20px -25px 0px 0px
 		.item-pic4
-			margin: -55px 65px 0 0px
+			margin: -25px 65px 0 0px
 
 	.test
 		display: grid
@@ -326,6 +350,7 @@
 					line-height: 35px
 					max-width: stretch
 					padding: 41px 0
+					transition: all 0.3s ease 0s
 			.ac-trigger-custom::after,
 			.ac-trigger-custom::before
 				left: calc(100% - 41px)
@@ -334,6 +359,13 @@
 				height: 32px
 			.ac-trigger-custom::before
 				top: calc(50% - 16px)
+			.ac-panel
+				.ac-text-custom
+					font-size: 18px
+					line-height: 25px	
 		.ac-custom.is-active
 			.ac-trigger-custom::after
 				top: calc(50% - 16px)
+			.ac-trigger-box
+				padding-bottom: 30px	
+		
