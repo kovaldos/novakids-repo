@@ -142,6 +142,11 @@
 		margin-bottom: 18px
 	.ac
 		margin-top: 0
+		.ac-trigger
+			font: bold 16px Mikado,sans-serif
+		.ac-panel
+			.ac-text
+				normal 14px Mikado,sans-serif	
 	.ac-custom
 		border-top: none
 		border-left: none
@@ -150,6 +155,7 @@
 		box-sizing: border-box
 		border-bottom: 1px solid #FFFFFF
 		.ac-trigger-custom
+
 			display: flex
 			justify-content: space-between
 			padding: 0
@@ -176,6 +182,7 @@
 			top: calc(50% - 11px)
 		.ac-panel
 			.ac-text-custom
+				font-family: Mikado,sans-serif
 				font-style: normal
 				font-weight: normal
 				font-size: 13.8889px
@@ -196,7 +203,7 @@
 		&__text-box
 			padding: 0 25px 20px 25px
 		&__text
-			font-size: 20px
+			font-size: 19px
 			line-height: 22px
 	.steps
 		&__block:nth-child(1)::before
@@ -214,14 +221,14 @@
 @media screen and (min-width: 426px) and (max-width: 767px)
 	.how-to-get
 		&__img-box
-		    align-self: flex-end
-		    margin: -35px 12% 0 0
+			align-self: flex-end
+			margin: -35px 12% 0 0
 
 @media screen and (min-width: 768px) and (max-width: 1199px)
 	.how-to-get
 		&__img-box
-		    align-self: flex-end
-		    margin: -35px 25% 0 0				
+			align-self: flex-end
+			margin: -35px 25% 0 0
 
 @media screen and (min-width: 1200px)
 	.how-to-get
@@ -233,7 +240,7 @@
 			background: url("../images/how_to_get_bg_desktop.png") center no-repeat
 			background-size: contain
 		&__text
-			font-size: 32px
+			font-size: 30px
 			line-height: 35px
 			max-width: 378px
 			margin-top: -20px
