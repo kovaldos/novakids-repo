@@ -12,8 +12,11 @@
 .try__text {
   max-width: 285px;
 }
+.try__img-box {
+  max-width: 148px;
+}
 .try__btn {
-  margin-top: 112px;
+  margin-top: 48px;
   font-size: 21px;
   line-height: 23px;
 }
@@ -36,7 +39,7 @@
     line-height: 33px;
   }
   .try__btn {
-    margin-top: 132px;
+    margin-top: 17px;
     min-height: 84px;
     max-width: 336px;
     width: 100%;

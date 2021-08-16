@@ -1,62 +1,7 @@
-/* orelega-one-regular - latin_cyrillic */
-@font-face {
-  font-family: "Orelega One";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/orelega-one-v1-latin_cyrillic-regular.eot");
-  /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/orelega-one-v1-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/orelega-one-v1-latin_cyrillic-regular.woff2") format("woff2"),
-    url("../fonts/orelega-one-v1-latin_cyrillic-regular.woff") format("woff"),
-    url("../fonts/orelega-one-v1-latin_cyrillic-regular.ttf") format("truetype"),
-    url("../fonts/orelega-one-v1-latin_cyrillic-regular.svg#OrelegaOne")
-      format("svg");
-  /* Legacy iOS */
-}
-
-/* manrope-regular - latin_cyrillic */
-@font-face {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/manrope-v4-latin_cyrillic-regular.eot");
-  /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/manrope-v4-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/manrope-v4-latin_cyrillic-regular.woff2") format("woff2"),
-    url("../fonts/manrope-v4-latin_cyrillic-regular.woff") format("woff"),
-    url("../fonts/manrope-v4-latin_cyrillic-regular.ttf") format("truetype"),
-    url("../fonts/manrope-v4-latin_cyrillic-regular.svg#Manrope") format("svg");
-  /* Legacy iOS */
-}
-
-/* manrope-600 - latin_cyrillic */
-@font-face {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/manrope-v4-latin_cyrillic-600.eot");
-  /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/manrope-v4-latin_cyrillic-600.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/manrope-v4-latin_cyrillic-600.woff2") format("woff2"),
-    url("../fonts/manrope-v4-latin_cyrillic-600.woff") format("woff"),
-    url("../fonts/manrope-v4-latin_cyrillic-600.ttf") format("truetype"),
-    url("../fonts/manrope-v4-latin_cyrillic-600.svg#Manrope") format("svg");
-  /* Legacy iOS */
-}
-
 @font-face {
   font-family: "Mikado";
-  src: url("Mikado-Regular.eot");
-  src: url("Mikado-Regular.eot?#iefix") format("embedded-opentype"),
-    url("Mikado-Regular.woff2") format("woff2"),
-    url("Mikado-Regular.woff") format("woff"),
-    url("Mikado-Regular.ttf") format("truetype");
+  src: url("../fonts/Mikado-Regular.eot");
+  src: url("../fonts/Mikado-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Mikado-Regular.woff2") format("woff2"), url("../fonts/Mikado-Regular.woff") format("woff"), url("../fonts/Mikado-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -64,14 +9,10 @@
 
 @font-face {
   font-family: "Mikado";
-  src: url("Mikado-Bold.eot");
-  src: url("Mikado-Bold.eot?#iefix") format("embedded-opentype"),
-    url("Mikado-Bold.woff2") format("woff2"),
-    url("Mikado-Bold.woff") format("woff"),
-    url("Mikado-Bold.ttf") format("truetype");
+  src: url("../fonts/Mikado-Bold.eot");
+  src: url("../fonts/Mikado-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Mikado-Bold.woff2") format("woff2"), url("../fonts/Mikado-Bold.woff") format("woff"), url("../fonts/Mikado-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
-
 /*# sourceMappingURL=fonts.css.map */

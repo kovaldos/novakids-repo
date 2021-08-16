@@ -18,32 +18,35 @@
 .award__title {
   max-width: 495px;
   width: 100%;
-  font-family: Orelega One;
   font-style: normal;
-  font-weight: normal;
-  font-size: 163.908px;
-  line-height: 179px;
+  font-weight: bold;
+  font-size: 111.068px;
+  line-height: 150px;
   text-align: center;
-  letter-spacing: -9px;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
   font-feature-settings: "kern" off;
   color: #FFFFFF;
 }
 .award__span_1 {
-  letter-spacing: -33px;
+  letter-spacing: 0;
 }
 .award__sub-title {
-  font-family: Orelega One;
   font-style: normal;
-  font-weight: normal;
-  font-size: 60.2857px;
+  font-weight: bold;
+  font-size: 40.8509px;
+  line-height: 55px;
   margin-top: -25px;
   text-align: center;
   color: #FFFFFF;
 }
+.award__img {
+  margin-top: 10px;
+}
 .award__text {
-  margin-top: 25px;
-  max-width: 308px;
-  font-family: Manrope;
+  margin-top: 10px;
+  max-width: 334px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -52,7 +55,7 @@
   color: #FFFFFF;
 }
 .award__social {
-  margin: 37px 0 48px 0;
+  margin: 11px 0 48px 0;
   max-width: 290px;
   width: 100%;
   display: flex;

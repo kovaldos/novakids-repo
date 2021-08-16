@@ -10,61 +10,26 @@
 
 // Скачать оптимизированные google шрифты  https://google-webfonts-helper.herokuapp.com/fonts
 
-/* orelega-one-regular - latin_cyrillic */
 @font-face {
-  font-family: "Orelega One";
+  font-family: "Mikado";
+  src: url("../fonts/Mikado-Regular.eot");
+  src: url("../fonts/Mikado-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Mikado-Regular.woff2") format("woff2"),
+    url("../fonts/Mikado-Regular.woff") format("woff"),
+    url("../fonts/Mikado-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/orelega-one-v1-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/orelega-one-v1-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/orelega-one-v1-latin_cyrillic-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/orelega-one-v1-latin_cyrillic-regular.woff") format("woff"),
-    /* Modern Browsers */
-      url("../fonts/orelega-one-v1-latin_cyrillic-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/orelega-one-v1-latin_cyrillic-regular.svg#OrelegaOne")
-      format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
-/* manrope-regular - latin_cyrillic */
 @font-face {
-  font-family: "Manrope";
+  font-family: "Mikado";
+  src: url("../fonts/Mikado-Bold.eot");
+  src: url("../fonts/Mikado-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Mikado-Bold.woff2") format("woff2"),
+    url("../fonts/Mikado-Bold.woff") format("woff"),
+    url("../fonts/Mikado-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/manrope-v4-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/manrope-v4-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/manrope-v4-latin_cyrillic-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/manrope-v4-latin_cyrillic-regular.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/manrope-v4-latin_cyrillic-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/manrope-v4-latin_cyrillic-regular.svg#Manrope")
-      format("svg"); /* Legacy iOS */
-}
-/* manrope-600 - latin_cyrillic */
-@font-face {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/manrope-v4-latin_cyrillic-600.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/manrope-v4-latin_cyrillic-600.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/manrope-v4-latin_cyrillic-600.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/manrope-v4-latin_cyrillic-600.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/manrope-v4-latin_cyrillic-600.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/manrope-v4-latin_cyrillic-600.svg#Manrope") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }

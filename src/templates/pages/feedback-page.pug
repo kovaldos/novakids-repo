@@ -16,5 +16,11 @@ block content
                     p.feedback__text Введите адрес электронной почты, на который будет выслан промокод
                     p.feedback__text_email E-mail
                     input.feedback__input(type="email" placeholder="example@gmail.com")
+                    label.feedback__custom-checkbox
+                        input(type="checkbox" value="value")
+                        span.feedback__appeal Я&nbsp;согласен&nbsp;на&nbsp;<span><a class="feedback__appeal-link" href="#">Обработку персональных данных</a>&nbsp;и&nbsp;согласен&nbsp;с&nbsp;<span><a class="feedback__appeal-link" href="#">Правилами акции</a>
+                    label.feedback__custom-checkbox
+                        input(type="checkbox" value="value")
+                        span.feedback__appeal Я согласен на&nbsp;<span> <a class="feedback__appeal-link" href="#">Рассылку коммуникации </a>   
                     button.feedback__btn(type="button")
                         a(href="try.html") Отправить       
