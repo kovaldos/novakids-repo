@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/Mikado-Regular.eot");
+  src: url("../fonts/Mikado-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Mikado-Regular.woff2") format("woff2"), url("../fonts/Mikado-Regular.woff") format("woff"), url("../fonts/Mikado-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/Mikado-Bold.eot");
+  src: url("../fonts/Mikado-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Mikado-Bold.woff2") format("woff2"), url("../fonts/Mikado-Bold.woff") format("woff"), url("../fonts/Mikado-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

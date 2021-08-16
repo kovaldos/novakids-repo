@@ -1,0 +1,22 @@
+extends ../template_copy
+
+block variables
+    - var title = 'Попробуйте'
+    - var contactForm = true
+
+block content
+    main
+        .wrapper
+            section.try.free-lesson
+                a.award__logo.feedback__logo.try__logo(href="index.html")    
+                    picture
+                        source(srcset="./assets/images/Vector Smart Object.webp" type="image/webp") 
+                        img(src="./assets/images/Vector Smart Object.svg" alt="logo-speak-for-miles")
+                form(action="#").feedback__form.try__form 
+                    p.feedback__text.try__text Хотите бесплатный пробный урок<br>для ребёнка от Novakid? Оставьте заявку!
+                    .try__img-box.free-lesson__img-box
+                        picture.how-to-get__pic     
+                            source(srcset="./assets/images/Characters_star_big_with_shadow.webp" type="image/webp") 
+                            img(src="./assets/images/Characters_star_big_with_shadow.png" alt="pink-broccoli")
+                    button.feedback__btn.try__btn(type="button")
+                        a(href="#") Перейти
